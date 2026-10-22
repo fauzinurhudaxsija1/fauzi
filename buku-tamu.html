@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Buku Tamu - Fauzi Nur Huda</title>
+</head>
+<body bgcolor="#EAF6FF" text="#18354D">
+
+<!-- IFRAME TERSEMBUNYI UNTUK MENAHAN HALAMAN AGAR TIDAK PINDAH -->
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){alert('Terima kasih! Pesan kamu berhasil dikirim.'); window.location.reload();}"></iframe>
+
+<table width="900" align="center" border="0" cellpadding="12" cellspacing="0" bgcolor="white">
+
+    <!-- HEADER DENGAN LOGO KIRI DAN KANAN -->
+    <tr bgcolor="#075985">
+        <td width="15%" align="left" valign="middle">
+            <img src="img/fauzi.png" alt="Logo Fauzi" width="100" height="100" border="0">
+        </td>
+        <td width="70%" align="center" valign="middle">
+            <font face="Arial" color="white" size="6">
+                <b>BUKU TAMU</b>
+            </font>
+            <br>
+            <font face="Arial" color="#DDF4FF">
+                Silakan Tinggalkan Pesan untuk Saya
+            </font>
+        </td>
+        <td width="15%" align="right" valign="middle">
+            <img src="img/smkn2yk.png" alt="Logo SMK N 2 Yogyakarta" width="100" height="100" border="0">
+        </td>
+    </tr>
+
+    <!-- NAVIGASI / MENU DENGAN IKON & GARIS PEMISAH -->
+    <tr bgcolor="#0E7490">
+        <td colspan="3" align="center" style="padding: 8px;">
+            <table width="100%" border="0" cellpadding="4" cellspacing="0">
+                <tr>
+                    <td width="19%" align="center" valign="middle">
+                        <a href="index.html" style="text-decoration: none;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Beranda" width="20" height="20" style="vertical-align: middle; border: 0;">
+                            &nbsp;<font face="Arial" color="white"><b>BERANDA</b></font>
+                        </a>
+                    </td>
+                    <td width="1%" align="center"><font color="white">|</font></td>
+                    
+                    <td width="19%" align="center" valign="middle">
+                        <a href="profil.html" style="text-decoration: none;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" alt="Profil" width="20" height="20" style="vertical-align: middle; border: 0;">
+                            &nbsp;<font face="Arial" color="white"><b>PROFIL</b></font>
+                        </a>
+                    </td>
+                    <td width="1%" align="center"><font color="white">|</font></td>
+                    
+                    <td width="19%" align="center" valign="middle">
+                        <a href="album.html" style="text-decoration: none;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3342/3342137.png" alt="Album" width="20" height="20" style="vertical-align: middle; border: 0;">
+                            &nbsp;<font face="Arial" color="white"><b>ALBUM</b></font>
+                        </a>
+                    </td>
+                    <td width="1%" align="center"><font color="white">|</font></td>
+                    
+                    <td width="19%" align="center" valign="middle">
+                        <a href="artikel.html" style="text-decoration: none;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Artikel" width="20" height="20" style="vertical-align: middle; border: 0;">
+                            &nbsp;<font face="Arial" color="white"><b>ARTIKEL</b></font>
+                        </a>
+                    </td>
+                    <td width="1%" align="center"><font color="white">|</font></td>
+                    
+                    <td width="19%" align="center" valign="middle">
+                        <a href="buku-tamu.html" style="text-decoration: none;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3330/3330314.png" alt="Buku Tamu" width="20" height="20" style="vertical-align: middle; border: 0;">
+                            &nbsp;<font face="Arial" color="white"><b>BUKU TAMU</b></font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- SAMBUTAN BUKU TAMU -->
+    <tr bgcolor="#DFF3FF">
+        <td colspan="3" align="center">
+            <font face="Arial">
+                <h2>Selamat Datang di Buku Tamu</h2>
+                <p>
+                    Terima kasih telah mengunjungi website personal saya.
+                    Silakan isi formulir di bawah ini.
+                </p>
+            </font>
+        </td>
+    </tr>
+
+    <!-- FORMULIR BUKU TAMU -->
+    <tr>
+        <td colspan="3">
+            <font face="Arial">
+                <form action="https://api.web3forms.com/submit" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+
+                    <!-- KUNCI AKSES WEB3FORMS -->
+                    <input type="hidden" name="access_key" value="48231268-cb08-410a-b1e6-f5139031c261">
+
+                    <table width="100%" cellpadding="10" cellspacing="0" border="1" bordercolor="#D0E7FF">
+
+                        <!-- INPUT NAMA -->
+                        <tr>
+                            <td width="30%" bgcolor="#F0F9FF">
+                                <label for="nama"><b>Nama Lengkap</b></label>
+                            </td>
+                            <td>
+                                <input type="text" id="nama" name="Nama" placeholder="Masukkan nama kamu" required style="width: 90%; padding: 6px; font-family: Arial;">
+                            </td>
+                        </tr>
+
+                        <!-- INPUT EMAIL -->
+                        <tr>
+                            <td bgcolor="#F0F9FF">
+                                <label for="email"><b>Email</b></label>
+                            </td>
+                            <td>
+                                <input type="email" id="email" name="Email" placeholder="nama@email.com" required style="width: 90%; padding: 6px; font-family: Arial;">
+                            </td>
+                        </tr>
+
+                        <!-- INPUT JENIS KELAMIN -->
+                        <tr>
+                            <td bgcolor="#F0F9FF">
+                                <b>Jenis Kelamin</b>
+                            </td>
+                            <td>
+                                <input type="radio" id="jk_l" name="Jenis_Kelamin" value="Laki-laki" required>
+                                <label for="jk_l">Laki-laki</label>
+                                &nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="jk_p" name="Jenis_Kelamin" value="Perempuan">
+                                <label for="jk_p">Perempuan</label>
+                            </td>
+                        </tr>
+
+                        <!-- INPUT PESAN -->
+                        <tr>
+                            <td bgcolor="#F0F9FF">
+                                <label for="pesan"><b>Pesan</b></label>
+                            </td>
+                            <td>
+                                <textarea id="pesan" name="Pesan" rows="5" placeholder="Tuliskan pesan kamu di sini" required style="width: 90%; padding: 6px; font-family: Arial;"></textarea>
+                            </td>
+                        </tr>
+
+                        <!-- TOMBOL SUBMIT & RESET -->
+                        <tr>
+                            <td colspan="2" align="center" bgcolor="#F0F9FF">
+                                <input type="submit" value="Kirim Pesan" style="background-color: #075985; color: white; border: none; padding: 8px 18px; font-weight: bold; cursor: pointer;">
+                                &nbsp;
+                                <input type="reset" value="Hapus Isian" style="background-color: #64748B; color: white; border: none; padding: 8px 18px; font-weight: bold; cursor: pointer;">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </form>
+            </font>
+
+            <script type="text/javascript">var submitted=false;</script>
+        </td>
+    </tr>
+
+    <!-- UCAPAN TERIMA KASIH -->
+    <tr>
+        <td colspan="3">
+            <font face="Arial">
+                <h3>Terima Kasih!</h3>
+                <p>
+                    Kritik, saran, dan pesan dari pengunjung sangat
+                    berarti untuk membantu saya belajar dan berkembang.
+                </p>
+            </font>
+        </td>
+    </tr>
+
+    <!-- FOOTER DENGAN SOSIAL MEDIA -->
+    <tr bgcolor="#075985">
+        <td colspan="3" align="center">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td align="left" width="50%" valign="middle">
+                        <font face="Arial" color="white" size="3">
+                            <b>My Social Media</b>
+                        </font>
+                    </td>
+                    <td align="right" width="50%" valign="middle">
+                        <a href="https://wa.me/62895365060208" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp" width="28" height="28" border="0" style="vertical-align: middle;">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://instagram.com/vanzxfan" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3938/3938036.png" alt="Instagram" width="28" height="28" border="0" style="vertical-align: middle;">
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://tiktok.com/@fannix._1" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046124.png" alt="TikTok" width="28" height="28" border="0" style="vertical-align: middle;">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <hr color="#0E7490" size="1" width="100%">
+
+            <font face="Arial" color="#DDF4FF" size="2">
+                &copy; 2026 Fauzi Nur Huda - X SIJA 1 SMK Negeri 2 Yogyakarta
+            </font>
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
